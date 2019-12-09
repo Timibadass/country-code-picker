@@ -1,11 +1,28 @@
 {
   "name": "country-code-picker",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Timi Omoyeni",
+    "email": "omoyenitimi@gmail.com"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": "https://github.com/Timibadass/country-code-picker",
+  "bugs": "https://github.com/timibadass/country-code-picker/issues",
+  "keywords": [
+    "words",
+    "go",
+    "here"
+  ],
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:npm": "vue-cli-service build --target lib --name phoneInput src/phoneInput.vue"
+  },
+  "main": "dist/phoneInput.umd.js",
+  "unpkg": "dist/phoneInput.umd.min.js"
 }
