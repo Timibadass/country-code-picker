@@ -9,9 +9,11 @@
   "repository": "https://github.com/Timibadass/country-code-picker",
   "bugs": "https://github.com/timibadass/country-code-picker/issues",
   "keywords": [
-    "words",
-    "go",
-    "here"
+    "Vue",
+    "phone",
+    "phone input",
+    "country-picker",
+    "international phone",
   ],
   "license": "MIT",
   "private": false,
